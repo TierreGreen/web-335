@@ -1,2 +1,5 @@
-# web-335
-NoSQL my BUWebDev Repository for web-335.
+# WEB 335 Introduction to NoSQL
+
+## Contributors
+* Professor Richard Krasso
+* Tierre Green
