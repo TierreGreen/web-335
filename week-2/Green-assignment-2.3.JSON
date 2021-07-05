@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "230",
+        "first_name": "Clark",
+        "last_name": "Kent",
+        "mi": "C",
+        "enrolled": [
+            {
+                "session": "Spring",
+                "level": "freshman",
+                "course_start": "January 07, 2021",
+                "courses": [
+                    {
+                        "_id": 101,
+                        "course_title": "Becoming a Super Hero 101",
+                        "Professor": "Jor El"
+                    },
+                    {
+                        "_id": 105,
+                        "course_title": "Leaping Tall Buildings",
+                        "Professor": "Archimedes"
+                    },
+                    {
+                        "_id": 210,
+                        "course_title": "Damsels in Distress",
+                        "Professor": "Hermes"
+                    }
+                ]
+            }
+        ]
+    }
+]

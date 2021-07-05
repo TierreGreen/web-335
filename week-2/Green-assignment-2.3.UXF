@@ -1,0 +1,18 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>161</x><y>410</y><w>210</w><h>100</h></coordinates><panel_attributes>_Student_
+--
+_id
+first_name
+last_name
+mi</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>641</x><y>130</y><w>210</w><h>70</h></coordinates><panel_attributes>_Enroll_
+--
+_id
+grade</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>161</x><y>130</y><w>210</w><h>70</h></coordinates><panel_attributes>_Class_
+--
+_id
+name</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>251</x><y>190</y><w>230</w><h>240</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+Student can enroll in many classes &gt;</panel_attributes><additional_attributes>10;220;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>150</y><w>300</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+Class may have many students enrolled &gt;</panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element></diagram>
