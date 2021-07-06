@@ -1,0 +1,47 @@
+[
+    {
+        "users": [
+            {
+                "_id": 111,
+                "first_name": "Tony",
+                "last_name": "Stark",
+                "mi": "I",
+                "tech_roles": [
+                    {
+                        "role": "Manager",
+                        "permissions": [
+                            {
+                                "access_level": "supe control room"
+                            },
+                            {
+                                "access_level": "supe headquarters"
+                            },
+                            {
+                                "access_level": "supe convention center"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 115,
+                "first_name": "John",
+                "last_name": "Stewart",
+                "mi": "G",
+                "tech_roles": [
+                    {
+                        "role": "admin",
+                        "permissions": [
+                            {
+                                "access_level": "supe headquarters"
+                            },
+                            {
+                                "access_level": "supe convention center"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
