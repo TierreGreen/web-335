@@ -1,0 +1,41 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>280</y><w>300</w><h>140</h></coordinates><panel_attributes>_Publisher_
+--
+{
+
+"publisher_name": "Penguin Random House US",
+"publisher_code": 1001
+"publisher_address": "1745 Broadway"
+
+}</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>280</y><w>340</w><h>140</h></coordinates><panel_attributes>_Book_
+--
+{
+
+"book_isbn": "198481785X",
+"book_name": "Assassin's Apprentice",
+"book_price": "29.92"
+
+}
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>630</y><w>330</w><h>140</h></coordinates><panel_attributes>_Author_
+--
+{
+
+"irst_name": "Robin",
+"last_name": "Hobb",
+"author_phone": "555-867-5309",
+"author_email": "rhobb@robinhobb.com"
+
+}</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>100</y><w>300</w><h>140</h></coordinates><panel_attributes>_Business Rules_
+--
+1. A Publisher can publish many books.
+
+2. A book can have many authors.
+
+3. A book can be published by one publisher.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>330</y><w>430</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+a publisher can publish many books.</panel_attributes><additional_attributes>10;20;410;20</additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>410</y><w>120</w><h>240</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=1..*
+books can have 
+many authors.</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element></diagram>

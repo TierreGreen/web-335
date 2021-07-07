@@ -1,0 +1,48 @@
+
+[
+    {
+        "publisher_name": "Penguin Random House",
+        "publisher_code": 1001,
+        "publisher_address": "1745 Broadway",
+        "books": [
+            {
+                "book_isbn": "198481785X",
+                "book_name": "Assassin's Apprentice",
+                "book_price": "29.92",
+                "author": [
+                    {
+                        "first_name": "Robin",
+                        "last_name": "Hobb",
+                        "author_phone": "555-867-5309",
+                        "author_email": "rhobb@robinhobb.com"
+                    }
+                ]
+            },
+            {
+                "book_isbn": "9781607745259",
+                "book_name": "Death & Co",
+                "book_price": "40.00",
+                "author": [
+                    {
+                        "first_name": "David",
+                        "last_name": "Kaplan",
+                        "author_phone": "555-444-3333",
+                        "author_email": "dkaplan@authors.com"
+                    },
+                    {
+                        "first_name": "Nick",
+                        "last_name": "Fauchald",
+                        "author_phone": "555-666-7777",
+                        "author_email": "nfauchald@authors.com"
+                    },
+                    {
+                        "first_name": "Alex",
+                        "last_name": "Day",
+                        "author_phone": "555-888-3333",
+                        "author_email": "aday@authors.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
