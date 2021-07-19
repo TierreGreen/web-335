@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "SP1234567",
+        "email": "sportsUser@ilovesports.com",
+        "password": "GBR#1ScarletCream",
+        "users": [
+            {
+                "_userId": "0023",
+                "userName": "SuperSportsman",
+                "pin": "8675309",
+                "status": "active",
+                "permissions": "administrative"
+            },
+            {
+                "_userId": "0033",
+                "userName": "Pippen",
+                "pin": "90210",
+                "permissions": "standard"
+            }
+        ],
+        "sportsEvent": [
+            {
+                "eventId": "olymp2021",
+                "eventName": "2021 Olympics",
+                "date": "July 19, 2021",
+                "duration": "30D",
+                "Price": "19.99",
+                "pinReq": "True"
+            }
+        ]
+    }
+]
